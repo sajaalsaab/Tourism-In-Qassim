@@ -9,14 +9,18 @@ font-family:Times;
 font-size:18px;	}
 	
 html{
-	--blues:#C6D57E;
+	--greeen:#C6D57E;
+	--light-grey:#F5F4F4;
+	--light-green:#CAE4DB;
+	--brown:#CDAC81;
+	--navy-blue:#00303F;
 }	
 	
 
 
 
 .navbar{
-	background-color:var(--blues);
+	background-color:var(--brown);
 	
 }
 .navbar-list{
