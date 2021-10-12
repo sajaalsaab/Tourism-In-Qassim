@@ -10,17 +10,17 @@ font-size:18px;	}
 	
 html{
 	--greeen:#C6D57E;
-	--light-grey:#F5F4F4;
-	--light-green:#CAE4DB;
-	--brown:#CDAC81;
-	--navy-blue:#00303F;
+	--light-greys:#F5F4F4;
+	--light-greens:#CAE4DB;
+	--browns:#CDAC81;
+	--navy-blues:#00303F;
 }	
 	
 
 
 
 .navbar{
-	background-color:var(--brown);
+	background-color:var(--browns);
 	
 }
 .navbar-list{
