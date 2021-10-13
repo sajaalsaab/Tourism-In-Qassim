@@ -1,26 +1,45 @@
+#font-face{
+	font-family:"Tajawal";
+}
 
 
 
-*{box-sizing:border-box;
+.container{box-sizing:border-box;
 margin:0;
 padding:0;
 direction:rtl;
-font-family:Times;
-font-size:18px;	}
+font-family:Tajawal;
+font-size:15px;	}
 	
 html{
-	--greeen:#C6D57E;
-	--light-greys:#F5F4F4;
-	--light-greens:#CAE4DB;
-	--browns:#CDAC81;
+	--apple:#C6D57E;
+	--baby-grey:#F5F4F4;
+	--light-grey:#C8C2BC;
+	--light-green:#CAE4DB;
+	--brown:#CDAC81;
 	--navy-blue:#00303F;
+	--bage:#EAE7C6;
+	--grey:#9D9D9D;
 }	
-	
+
+.header{
+	background-color:var(--light-green);
+	width:100%;
+	padding:30px;
+}
+.header h1{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:50px;
+	color:var(--light-grey);
+	font-family:Tajawal;
+}	
 
 
 
 .navbar{
-	background-color:var(--browns);
+	background-color:var(--brown);
 	
 }
 .navbar-list{
@@ -41,7 +60,7 @@ transition:0.3s;
 	display:block;
 }
 .navbar-item:hover{
-	background-color:#9D9D9D;
+	background-color:var(--grey);;
 	transition:0.3s;
 }
 @media(max-width:650px){
