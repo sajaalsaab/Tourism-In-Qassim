@@ -3,7 +3,6 @@
 }
 
 
-
 .container{box-sizing:border-box;
 margin:0;
 padding:0;
@@ -21,6 +20,7 @@ html{
 	--bage:#EAE7C6;
 	--grey:#9D9D9D;
 }	
+	
 
 .header{
 	background-color:var(--light-green);
@@ -34,9 +34,7 @@ html{
 	font-size:50px;
 	color:var(--light-grey);
 	font-family:Tajawal;
-}	
-
-
+}
 
 .navbar{
 	background-color:var(--brown);
@@ -60,7 +58,7 @@ transition:0.3s;
 	display:block;
 }
 .navbar-item:hover{
-	background-color:var(--grey);;
+	background-color:var(--grey);
 	transition:0.3s;
 }
 @media(max-width:650px){
