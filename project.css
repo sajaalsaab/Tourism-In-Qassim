@@ -1,11 +1,40 @@
 #font-face{
 	font-family:"Tajawal";
+	
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family:Tajawal;
+	font-size:16px;
 }
 
+body{
+	background-image:url('qa.jpg');
+	background-size:cover;
+	
+	
+}
 
-.container{box-sizing:border-box;
+.header{
+	background-color:var(--light-green);
+	width:100%;
+	padding:15px;
+}
+.header h1{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:40px;
+	color:var(--light-grey);
+	font-family:Tajawal;
+}
+.container{
+	
+	box-sizing:border-box;
 margin:0;
-padding:0;
+padding:0px;
 direction:rtl;
 font-family:Tajawal;
 font-size:15px;	}
@@ -22,26 +51,16 @@ html{
 }	
 	
 
-.header{
-	background-color:var(--light-green);
-	width:100%;
-	padding:30px;
-}
-.header h1{
-	margin:0;
-	padding:0;
-	text-align:center;
-	font-size:50px;
-	color:var(--light-grey);
-	font-family:Tajawal;
-}
 
 .navbar{
 	background-color:var(--brown);
+
+	
 	
 }
 .navbar-list{
-	list-style:none; 
+	list-style:none;
+	
 }
 .navbar-item{
 display: inline-block;
@@ -68,5 +87,21 @@ transition:0.3s;
 		width:100px;
 	}
 	
+	
+}
+.main-section{
+	margin:1em;
+text-align:right;
+		
+}
+
+.intro{
+	font-size:40px;
+    color:white;
+	
+}
+.statement{
+	font-size:20px;
+	color:white;
 	
 }
