@@ -20,7 +20,8 @@ body{
 .header{
 	background-color:var(--beige);
 	width:100%;
-	padding:15px;
+	padding:50px;
+	
 }
 .header h1{
 	margin:0;
@@ -37,7 +38,17 @@ margin:0;
 padding:0px;
 direction:rtl;
 font-family:Tajawal;
-font-size:15px;	}
+font-size:15px;
+
+	
+}
+
+img{
+float:right;
+position:relative;
+bottom:40px;
+	
+}
 	
 html{
 	--apple:#C6D57E;
@@ -55,12 +66,15 @@ html{
 
 .navbar{
 	background-color:var(--brown);
+	
 
 	
 	
 }
 .navbar-list{
 	list-style:none;
+	
+	
 	
 }
 .navbar-item{
@@ -70,12 +84,16 @@ width:8rem;
 text-align:center;
 line-height:50px;
 transition:0.3s;
+position:relative;
+
 
 }
 .navbar-link{
 	text-decoration:none;
 	color:white;
 	display:block;
+	position:relative;
+	left:140px;
 }
 .navbar-item:hover{
 	background-color:var(--grey);
@@ -91,9 +109,9 @@ transition:0.3s;
 	
 }
 .main-section-text{
+
 	margin:70px;
 text-align:right;
-
 		
 }
 
@@ -108,7 +126,7 @@ text-align:right;
 	
 }
 .statement{
-	font-size:22px;
+	font-size:25px;
 	color:var(--dark-brown);;
 	text-align:right;
 	font-weight:bolder;
