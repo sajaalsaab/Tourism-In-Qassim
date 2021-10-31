@@ -86,15 +86,15 @@ text-align:center;
 line-height:50px;
 transition:0.3s;
 position:relative;
-
+left:140px;
 
 }
 .navbar-link{
 	text-decoration:none;
 	color:white;
 	display:block;
-	position:relative;
-	left:140px;
+	
+	
 }
 .navbar-item:hover{
 	background-color:var(--grey);
