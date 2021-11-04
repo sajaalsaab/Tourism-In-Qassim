@@ -11,11 +11,14 @@
 	padding:0;
 	font-family:Tajawal;
 	font-size:16px;
+	
 }
 
 
 body{
 background-color:#EADEB8;
+
+overflow-x:hidden;
 
 }
 
@@ -23,6 +26,7 @@ background-color:#EADEB8;
 	background-color:var(--beige);
 	width:100%;
 	padding:15px;
+	height:100px;
 }
 .header h1{
 	margin:0;
@@ -58,7 +62,9 @@ html{
 
 .navbar{
 	background-color:var(--brown);
+position:relative;
 
+	
 	
 	
 }
@@ -73,12 +79,18 @@ width:8rem;
 text-align:center;
 line-height:50px;
 transition:0.3s;
+position:relative;
+left:100px;
+
 
 }
 .navbar-link{
 	text-decoration:none;
 	color:white;
 	display:block;
+	
+	
+	
 }
 .navbar-item:hover{
 	background-color:var(--grey);
@@ -95,11 +107,13 @@ transition:0.3s;
 .cards{
 padding:5rem 2rem;
 text-align:center;
+position:relative;
+left:420px;
 }
 
 .card{
-width:25vw;
-background-color:white;
+width:22vw;
+background-color:var(--brown);
 padding:0.5rem;
 margin:1rem;
 display:block;
@@ -111,7 +125,7 @@ border-radius:0.5rem;
 transform:scale(1.1);
 }
 .card-img{
-height: 100%;
+height:250px;
 width:100%;
 
 
@@ -121,11 +135,21 @@ text-decoration:none;
 color:#2D2424;
 font-family: Tajawal;
 }
+.logo{
+float:right;
+position:relative;
+left:10px;
+bottom:10px;
+}
+.butt{
+position:relative;
+right:435px;
 
+}
 </style>
 <body>
     
-<div class=header><img src="logo.png" alt="" height="90px" width="90px">
+<div class=header><img src="logo.png" alt="" height="90px" width="90px" class="logo">
 <h1></h1></div>
 
 <div class="container">
@@ -150,17 +174,17 @@ font-family: Tajawal;
 </div>
 
 <div class="card">
-<img src="Malls.JPG" alt="Malls" class="card-img">
+<img src="Malls.JPG" alt="Malls" class="card-img" height="500">
 <div class="card-text">
 <h4> <a href="#">الأسواق والمجمعات التجارية</a></h4></div>
 </div>
 
 <div class="card">
-<img src="qa.jpg" alt="heritage places" class="card-img">
+<img src="IMG_1080.jpg" alt="heritage places" class="card-img">
 <div class="card-text">
 <h4><a href="#">الاماكن التراثية والمزارع </a> </h4>
 </div>
-</div><br>
+</div>
 <div class="card">
 <img src="chalet.jpg" alt="chalet" class="card-img">
 <div class="card-text">
@@ -168,7 +192,7 @@ font-family: Tajawal;
 </div>
 </div>
 <br>
-<a href="ExploreQassim.html" ><button class="butt">عودة</button></a>
+<a href="ExploreQassim.html"  ><button class="butt">عودة</button></a>
 
 </div>
 
@@ -177,3 +201,4 @@ font-family: Tajawal;
 
 </body>
 </html>
+
