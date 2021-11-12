@@ -5,45 +5,52 @@
 </head>
 <style>
 
+#font-face{
+	font-family:"Tajawal";
+	
+}
 *{
 	box-sizing:border-box;
 	margin:0;
 	padding:0;
 	font-family:Tajawal;
 	font-size:16px;
-	
 }
 
-
 body{
-background-color:#EADEB8;
+	background-color:var(--beige);
 
-overflow-x:hidden;
-
+	
 }
 
 .header{
 	background-color:var(--beige);
 	width:100%;
-	padding:15px;
-	height:100px;
+	height:50px;
+	padding:50px;
+	
 }
-.header h1{
-	margin:0;
-	padding:0;
-	text-align:center;
-	font-size:40px;
-	color:var(--dark-brown);
-	font-family:Tajawal;
-}
+
+
 .container{
 	
 	box-sizing:border-box;
 margin:0;
-padding:0px;
+padding:0;
 direction:rtl;
 font-family:Tajawal;
-font-size:15px;	}
+font-size:15px;
+
+	
+}
+
+.logo{
+float:right;
+position:relative;
+bottom:40px;
+left:48px;
+	
+}
 	
 html{
 	--apple:#C6D57E;
@@ -53,7 +60,7 @@ html{
 	--brown:#CDAC81;
 	--navy-blue:#00303F;
 	--grey:#9D9D9D;
-	--dark-brown:#C68B59;
+	--dark-brown:#9D5C0D;
 	--beige:#EADEB8;
 	--brownr: #2D2424;
 }	
@@ -62,14 +69,15 @@ html{
 
 .navbar{
 	background-color:var(--brown);
-position:relative;
-
 	
+
 	
 	
 }
 .navbar-list{
 	list-style:none;
+	
+	
 	
 }
 .navbar-item{
@@ -80,8 +88,7 @@ text-align:center;
 line-height:50px;
 transition:0.3s;
 position:relative;
-left:100px;
-
+left:140px;
 
 }
 .navbar-link{
@@ -90,18 +97,19 @@ left:100px;
 	display:block;
 	
 	
-	
 }
 .navbar-item:hover{
 	background-color:var(--grey);
 	transition:0.3s;
 }
-@media(max-width:650px)
+@media(max-width:650px){
 	.mavbar-item{
 		display:block;
 		text-align:center;
 		width:100px;
 	}
+	
+}
 	
 
 .cards{
@@ -135,12 +143,7 @@ text-decoration:none;
 color:#2D2424;
 font-family: Tajawal;
 }
-.logo{
-float:right;
-position:relative;
-left:10px;
-bottom:10px;
-}
+
 .butt{
 position:relative;
 right:435px;
@@ -148,19 +151,18 @@ right:435px;
 }
 </style>
 <body>
-    
-<div class=header><img src="logo.png" alt="" height="90px" width="90px" class="logo">
-<h1></h1></div>
+<div class=header><img src="logo.png" alt="" height="90" width="90" class="logo">
+</div>
 
 <div class="container">
 <nav class="navbar">
 <ul class="navbar-list">
 <li class="navbar-item">
-<a class="navbar-link"href="Home.html">الرئيسية</a></li>
+<a class="navbar-link" href="home.html">الرئيسية</a></li>
 <li class="navbar-item">
-<a class="navbar-link"href="About.html">حول الموقع</a></li>
+<a class="navbar-link" href="">حول الموقع</a></li>
 <li class="navbar-item" >
-<a class="navbar-link"href="2030 Vision.html">رؤية 2030 للسياحة</a><l/i>
+<a class="navbar-link" href="">رؤية 2030 للسياحة</a></li>
 
 </ul>
 </nav>
@@ -174,7 +176,7 @@ right:435px;
 </div>
 
 <div class="card">
-<img src="Malls.JPG" alt="Malls" class="card-img" height="500">
+<img src="Malls.JPG" alt="Malls" class="card-img" >
 <div class="card-text">
 <h4> <a href="#">الأسواق والمجمعات التجارية</a></h4></div>
 </div>
@@ -192,7 +194,7 @@ right:435px;
 </div>
 </div>
 <br>
-<a href="ExploreQassim.html"  ><button class="butt">عودة</button></a>
+<a href="ExploreQassim.html"  ><button type="button"class="butt">عودة</button></a>
 
 </div>
 
@@ -201,4 +203,3 @@ right:435px;
 
 </body>
 </html>
-
