@@ -1,0 +1,134 @@
+#font-face{
+	font-family:"Tajawal";
+
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family:Tajawal;
+	font-size:16px;
+}
+
+body{
+
+	background-image:url("q.jpg");
+	background-size:40%;
+
+
+}
+
+.header{
+	background-color:var(--beige);
+	width:100%;
+	height:50px;
+	padding:50px;
+
+}
+
+
+.container{
+
+	box-sizing:border-box;
+margin:0;
+padding:0;
+direction:rtl;
+font-family:Tajawal;
+font-size:15px;
+
+
+}
+
+.logo{
+float:right;
+position:relative;
+bottom:40px;
+left:48px;
+
+}
+
+html{
+	--apple:#C6D57E;
+	--baby-grey:#F5F4F4;
+	--light-grey:#C8C2BC;
+
+	--brown:#CDAC81;
+	--navy-blue:#00303F;
+	--grey:#9D9D9D;
+	--dark-brown:#9D5C0D;
+	--beige:#EADEB8;
+}
+
+
+
+.navbar{
+	background-color:var(--brown);
+
+
+
+
+}
+.navbar-list{
+	list-style:none;
+
+
+
+}
+.navbar-item{
+display: inline-block;
+height:50px;
+width:8rem;
+text-align:center;
+line-height:50px;
+transition:0.3s;
+position:relative;
+left:140px;
+
+}
+.navbar-link{
+	text-decoration:none;
+	color:white;
+	display:block;
+
+
+}
+.navbar-item:hover{
+	background-color:var(--grey);
+	transition:0.3s;
+}
+@media(max-width:650px)
+	.mavbar-item{
+		display:block;
+		text-align:center;
+		width:100px;
+	}
+
+
+}
+.main-section-text{
+
+	margin:70px;
+text-align:right;
+
+}
+
+.intro{
+	font-size:40px;
+     color:var(--dark-brown);
+	text-align:right;
+	font-weight:bolder;
+	margin-top:60px;
+	margin-right:30px;
+
+
+}
+.statement{
+	font-size:25px;
+	color:var(--dark-brown);
+	text-align:right;
+	font-weight:bolder;
+	margin-top:25px;
+	margin-right:20px;
+
+
+}
