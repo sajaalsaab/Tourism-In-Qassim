@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/b4ebb432fc.js" crossorigin="anonymous"></script>
+<title>المطاعم و المقاهي |بريدة</title>
+<style>
+#font-face{
+	font-family:"Tajawal";
+
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family:Tajawal;
+	font-size:16px;
+}
+
+
+
+.header{
+	background-color:var(--beige);
+	width:100%;
+	height:50px;
+	padding:50px;
+
+}
+
+
+.container{
+
+	box-sizing:border-box;
+margin:0;
+padding:0;
+direction:rtl;
+font-family:Tajawal;
+font-size:15px;
+
+
+}
+
+.logo{
+float:right;
+position:relative;
+bottom:40px;
+left:48px;
+
+}
+
+html{
+	--apple:#C6D57E;
+	--baby-grey:#F5F4F4;
+	--light-grey:#C8C2BC;
+	--light-green:#CAE4DB;
+	--brown:#CDAC81;
+	--navy-blue:#00303F;
+	--grey:#9D9D9D;
+	--dark-brown:#9D5C0D;
+	--beige:#EADEB8;
+
+}
+
+
+
+.navbar{
+	background-color:var(--brown);
+
+
+
+
+}
+.navbar-list{
+	list-style:none;
+
+
+
+}
+.navbar-item{
+display: inline-block;
+height:50px;
+width:8rem;
+text-align:center;
+line-height:50px;
+transition:0.3s;
+position:relative;
+left:140px;
+
+}
+.navbar-link{
+	text-decoration:none;
+	color:white;
+	display:block;
+
+
+}
+.navbar-item:hover{
+	background-color:var(--grey);
+	transition:0.3s;
+}
+@media(max-width:650px){
+	.mavbar-item{
+		display:block;
+		text-align:center;
+		width:100px;
+	}}
+
+body{
+background-color:var(--beige);
+overflow-x:hidden;
+
+}
+.cards{
+padding:5rem 2rem;
+text-align:center;
+position:relative;
+left:260px;
+}
+
+.card{
+width:55vw;
+height:23vw;
+background-color:var(--brown);
+padding:0.5rem;
+
+margin:1rem;
+display:block;
+transition:.2s;
+border-radius:0.5rem;
+
+}
+
+.card-img{
+height:220px;
+width:250px;
+float:left;
+margin-top:30px;
+margin-left:25px;
+margin-right:0;
+border-radius:0.5rem;
+margin-right:20px;
+
+
+}
+.text{
+
+color:#7E370C;
+font-family: Tajawal;
+text-align:center;
+position:relative;
+top:20px;
+font-size:28px;
+
+
+
+}
+.catg{
+position:relative;
+top:70px;
+left:110px;
+font-size:20px;
+font-weight:bolder;
+color:var(--dark-brown);
+}
+.des{
+position:relative;
+right:10px;
+top:80px;
+text-align:right;
+color:var(--dark-brown);
+
+}
+
+
+
+.butt{
+position:relative;
+right:240px;
+
+}
+
+#insta{
+position:relative;
+top:75px;
+left:68px;
+font-size:40px;
+
+}
+#loca{
+position:relative;
+top:75px;
+right:60px;
+font-size:40px;
+}
+a{
+text-decoration:none;
+color:black;
+}
+
+
+</style></head>
+<body>
+ <div class=header><img src="logo.png" alt="" height="90" width="90" class="logo">
+</div>
+
+<div class="container">
+<nav class="navbar">
+<ul class="navbar-list">
+<li class="navbar-item">
+<a class="navbar-link" href="home.html">الرئيسية</a></li>
+<li class="navbar-item">
+<a class="navbar-link" href="">حول الموقع</a></li>
+<li class="navbar-item" >
+<a class="navbar-link" href="">رؤية 2030 للسياحة</a></li>
+
+</ul>
+</nav>
+</div><br><br>
+
+
+<div class="cards">
+<div class="card">
+
+<img class="card-img" alt="ba"id="img1" src="nordba1.jpg">
+
+<div class="card-text">
+<h4 class="text">nord cafes</h4>
+<pre class="catg">التصنيف : مقهى</pre>
+<pre class="des">مقهى مناسب للأفراد والعوائل يقدم أشهى
+	الحلويات والمشروبات ،كما يتميز بأسعاره
+	المناسبة وتصميمه العصري
+</pre><br>
+ <a href="https://www.instagram.com/nordcafes/"><i id="insta" class="fab fa-instagram" style="color:#F5E8C7;"></i></a>
+ <a href="https://www.google.com/maps/place/%D9%86%D9%88%D8%B1%D8%AF+%D9%83%D8%A7%D9%81%D9%8A%D8%A9%E2%80%AD/@26.3966007,43.9262457,17z/data=!3m1!4b1!4m5!3m4!1s0x157f5714b7e7efbd:0xc8d6ba2494220d93!8m2!3d26.3965959!4d43.924057"><i id="loca" class="fas fa-map-marker-alt" style="color:#F5E8C7;"></i></a>
+<button  onclick="document.getElementById('img1').src='nordba1.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:507px;bottom:40px;"><i class="fas fa-arrow-left"style="color:#7E370C;" ></i></button>
+<button onclick="document.getElementById('img1').src='nordba2.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:247px;bottom:40px;"><i class="fas fa-arrow-right"style="color:#7E370C;"></i></button>
+</div></div><br>
+<div class="card">
+
+<img class="card-img" alt="ba"id="img2" src="bashba1.jpg">
+
+<div class="card-text">
+<h4 class="text">قهوة باش المختصة</h4>
+<pre class="catg">التصنيف : مقهى</pre>
+<pre class="des">من أرقى مقاهي بريدة وأجملها، يقدمها
+أجود أنواع القهوة ويوفر معداتها ، كما
+يحوي ركن للكتب لقضاء وقت ماتع</pre><br>
+ <a href="https://www.instagram.com/bashcoffee/"><i id="insta" class="fab fa-instagram" style="color:#F5E8C7;"></i></a>
+ <a href="https://www.google.com/maps/place/%D9%82%D9%87%D9%88%D8%A9+%D8%A8%D8%A7%D8%B4+%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%B5%D8%A9%E2%80%AD/@26.408469,43.9300877,17z/data=!3m1!4b1!4m5!3m4!1s0x157f57489eebed9b:0x10d5ca56b77ab44f!8m2!3d26.408469!4d43.927899"><i id="loca" class="fas fa-map-marker-alt"style="color:#F5E8C7;"></i></a>
+<button  onclick="document.getElementById('img2').src='bashba1.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:507px;bottom:40px;"><i class="fas fa-arrow-left " style="color:#7E370C;"></i></button>
+<button onclick="document.getElementById('img2').src='bashba2.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:247px;bottom:40px;"><i class="fas fa-arrow-right" style="color:#7E370C;"></i></button>
+</div></div><br>
+
+<div class="card">
+
+<img class="card-img" alt="ba"id="img3" src="rippleba1.jpg">
+
+<div class="card-text">
+<h4 class="text">ripple cafes</h4>
+<pre class="catg">التصنيف : مقهى                 </pre>
+<pre class="des">مقهى أنيق ومميز ، يقدم أطيب الحلويات
+والمشروبات ،كما يتميز بتصميمة الأنيق
+وموقعه المناسب</pre><br>
+ <a href="https://www.instagram.com/ripplecafesa/"><i id="insta" class="fab fa-instagram" style="color:#F5E8C7;"></i></a>
+ <a href="https://www.google.com/maps/place/%D8%AF%D9%8A%D9%81%D8%A7+%D9%85%D8%B7%D8%B9%D9%85+%D9%83%D8%A7%D9%81%D9%8A%D9%87%E2%80%AD/@26.1104643,44.0008118,17z/data=!3m1!4b1!4m5!3m4!1s0x1581eeea52a76ec1:0x5684737120c1f6c2!8m2!3d26.1104635!4d43.998528"><i id="loca" class="fas fa-map-marker-alt"style="color:#F5E8C7;"></i></a>
+<button  onclick="document.getElementById('img3').src='rippleba1.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:507px;bottom:40px;"><i class="fas fa-arrow-left"style="color:#7E370C;"></i></button>
+<button onclick="document.getElementById('img3').src='rippleba2.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:247px;bottom:40px;"><i class="fas fa-arrow-right" style="color:#7E370C;"></i></button>
+</div></div><br>
+<div class="card">
+
+<img class="card-img" alt="ba"id="img4" src="gunesba1.jpg">
+
+<div class="card-text">
+<h4 class="text">Gunes Cafe</h4>
+<pre class="catg">التصنيف : مقهى ومطعم                  </pre>
+<pre class="des">يقدم هذا المطعم والمقهى جميع الوجبات من <br>إفطار وغداء وعشاء كما يقدم أشهى الحلويات<br>ويتميز أيضا بخدمته السريعة وتصميمه الراقي</pre><br>
+ <a href="https://www.instagram.com/gunesh_ksa/"><i id="insta" class="fab fa-instagram" style="color:#F5E8C7;"></i></a>
+ <a href="https://www.google.com/maps/place/Gunes+Cafe+%D9%82%D9%88%D9%86%D9%8A%D8%B4%E2%80%AD/@26.3549347,43.9570516,17z/data=!3m1!4b1!4m5!3m4!1s0x157f583c99f7c671:0x3ea720c46e56b126!8m2!3d26.3549347!4d43.9548629"><i id="loca" class="fas fa-map-marker-alt"style="color:#F5E8C7;"></i></a>
+<button  onclick="document.getElementById('img4').src='gunesba1.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:507px;bottom:40px;"><i class="fas fa-arrow-left " style="color:#7E370C;"></i></button>
+<button onclick="document.getElementById('img4').src='gunesba2.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:247px;bottom:40px;"><i class="fas fa-arrow-right" style="color:#7E370C;"></i></button>
+</div></div><br>
+<div class="card">
+
+<img class="card-img" alt="ba"id="img5" src="seventeenba1.jpg">
+
+<div class="card-text">
+<h4 class="text">saventeen</h4>
+<pre class="catg">التصنيف : مقهى ومطعم              </pre>
+<pre class="des">مقهى ومطعم راقي يوفر العديد من الأصناف
+ويتميز بخدمته السريعة وبتصميمه الفريد</pre><br>
+ <a href="https://www.instagram.com/_17.seventeen/"><i id="insta" class="fab fa-instagram"style="color:#F5E8C7;"></i></a>
+ <a href="https://www.google.com/maps/place/%D9%83%D9%88%D9%81%D9%8A+%D9%88%D9%85%D8%B7%D8%B9%D9%85+%D8%B3%D9%81%D9%86%D8%AA%D9%8A%D9%86%E2%80%AD/@26.3981452,43.9200179,17z/data=!3m1!4b1!4m5!3m4!1s0x157f5716d3beefd7:0x541005cd791bd548!8m2!3d26.3981452!4d43.9178292"><i id="loca" class="fas fa-map-marker-alt"style="color:#F5E8C7;"></i></a>
+<button  onclick="document.getElementById('img5').src='seventeenba1.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:507px;bottom:40px;"><i class="fas fa-arrow-left" style="color:#7E370C;"></i></button>
+<button onclick="document.getElementById('img5').src='seventeenba2.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:247px;bottom:40px;"><i class="fas fa-arrow-right" style="color:#7E370C;"></i></button>
+</div></div>
+<br>
+<div class="card">
+
+<img class="card-img" alt="ba"id="img6" src="venorba1.jpg">
+
+<div class="card-text">
+<h4 class="text">venor</h4>
+<pre class="catg">التصنيف : مطعم</pre>
+<pre class="des">مطعم يقدم ألذ الأكلات اللبنانية ، كما
+يقدم أنواع متعددة من الحلويات، يتميز
+بتصميمه الفاخر والعصري</pre><br>
+ <a href="https://www.instagram.com/venor.sa/"><i id="insta" class="fab fa-instagram"style="color:#F5E8C7;"></i></a>
+ <a href="https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D9%81%D9%8A%D9%86%D9%88%D8%B1%E2%80%AD/@26.3964465,43.9212735,17z/data=!3m1!4b1!4m5!3m4!1s0x157f571142de4691:0xb76cfdd11a1dd477!8m2!3d26.3964465!4d43.9190848"><i id="loca" class="fas fa-map-marker-alt"style="color:#F5E8C7;"></i></a>
+<button  onclick="document.getElementById('img6').src='venorba1.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:507px;bottom:40px;"><i class="fas fa-arrow-left" style="color:#7E370C;"></i></button>
+<button onclick="document.getElementById('img6').src='venorba2.jpg'" style="background-color:var(--brown);border:var(--brown);display:inline-block;position:relative;right:247px;bottom:40px;"><i class="fas fa-arrow-right" style="color:#7E370C;"></i></button>
+</div></div>
+<br>
+<a href="ExploreQassim.html"  ><button class="butt">عودة</button></a>
+
+</div>
+
+
+
+
+</body>
+</html>
