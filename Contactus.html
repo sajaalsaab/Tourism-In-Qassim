@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>حول الموقع </title>
+<title>تواصل معنا </title>
 <style>
 
 #font-face{
@@ -57,7 +57,6 @@ html{
 	--apple:#C6D57E;
 	--baby-grey:#F5F4F4;
 	--light-grey:#C8C2BC;
-
 	--brown:#CDAC81;
 	--navy-blue:#00303F;
 	--grey:#9D9D9D;
@@ -114,6 +113,8 @@ left:140px;
 
 .content{
 	background-color:var(--beige);
+	border-style: solid;
+  border-color:var(--brown);
     background-position:center;
 	width:500px;
     padding:50px;
@@ -121,6 +122,7 @@ left:140px;
 	position: relative;
 	left:370px;
 	border-radius: 25px;
+
 
 }
 .content p{
@@ -134,10 +136,31 @@ left:140px;
 }
 .butt{
 	position: relative;
-	left: 190px;
+	left: 175px;
+	top:45px;
 }
-    </style>
-<title>About</title>
+
+.text{
+
+color:#7E370C;
+font-family: Tajawal;
+text-align:center;
+position:relative;
+top:10px;
+font-size:28px;
+
+}
+
+.form{
+position:relative;
+right:10px;
+top:40px;
+text-align:center;
+color:var(--dark-brown);
+}
+
+</style>
+<title>تواصل معنا</title>
 </head>
 <body>
 
@@ -160,13 +183,24 @@ left:140px;
 </div><br><br>
 
 <div class="content">
-    <p>مدينة القصيم هي مدينة مثال للتميز والجمال، وعند زيارتك لهذه المدينة ستجد الكثير من وسائل الترفيه وطرق للاستماع بالوقت حيث أنها تضم عدد كبير من المتنزهات والمزارع بالإضافة إلى المتاحف التي لها قيمة تاريخية كبيرة، ويمكنك أيضاً أن تحظى بتجربة تسوق رائعة من خلال زيارة مراكز التسوق والمولات.
+
+<h4 class="text"> نرحب بأسئلتك وأفكارك </h4>
+
+<form action=".php" method=post"">
+
+<pre class="form">الاسم
+<input name="username" type="name"  required></pre>
 <br>
-موقع اكتشف القصيم سيساعدك لتجد أفضل الوجهات في القصيم لقضاء الإجازات والعطل  عبر توفير إختيارات متعددة ومختلفة في أفضل المواقع السياحية.
-        </p><br>
 
-   <a href="ExploreQassim.html"><button type="button" class="butt">عودة</button></a>
+<pre class="form">البريد الإلكتروني
+<input name="useremail" type="email"  ></pre>
+<br>
+<pre class="form"> تفاصيل
+<textarea name="message" rows="6" cols="25" required>
+</textarea></pre>
 
-         </div>
+<button type="button" class="butt">ارسال</button>
+</form>
+</div>
 </body>
 </html>
