@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ar">
 <head>
-	<meta charset="utf-8">
+<meta charset="utf-8">
 <title>تواصل معنا </title>
 <style>
 
@@ -159,7 +159,6 @@ color:var(--dark-brown);
 }
 
 </style>
-<title>تواصل معنا</title>
 </head>
 <body>
 
@@ -185,29 +184,41 @@ color:var(--dark-brown);
 
 <h4 class="text"> نرحب باقتراحاتك وأفكارك</h4>
 
-<form action="test.php" method="post">
+<form name="reqForm" action="test.php" onsubmit="return validateForm()" method="post">
 
 <pre class="form">الاسم
-<input name="username" type="text"  required></pre>
+<input name="username" type="text"></pre>
 <br>
 
 <pre class="form">البريد الإلكتروني
 <input name="useremail" type="email"  ></pre>
 <br>
 <pre class="form"> تفاصيل
-<textarea name="message" rows="6" cols="25" required>
+<textarea name="message" rows="6" cols="25" >
 </textarea></pre>
 
 <button type="submit" class="butt" >ارسال</button>
 
 <script>
+function validateForm() {
 
-$("#submit").click(function () {
-//alert("Thank you for your message! I will respond as soon as I find somewhere with free wifi!");
-var userName = $("#username").val();
-var userEmail = $("#useremail").val();
-var message = $("#message").val();
-})
+		  var username = document.forms["reqForm"]["username"].value;
+			var useremail= document.forms["reqForm"]["useremail"].value;
+			var message= document.forms["reqForm"]["message"].value;
+
+	  if (username == null || username == "") {
+       alert("يجب تعبئة حقل الاسم");
+     return false;
+	 }
+	 if (useremail == null || useremail == "") {
+			alert("يجب تعبئة حقل البريد الالكتروني");
+		return false;
+	}
+	if (message == null || message == "") {
+		 alert("يجب تعبئة حقل التفاصيل");
+	 return false;
+ }
+}
 
 </script>
 
