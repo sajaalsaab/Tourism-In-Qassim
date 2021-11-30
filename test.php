@@ -16,7 +16,10 @@ echo "created";
 $query="INSERT INTO suggestion(name,email,message)VALUES(' " .$_POST["username"]." ',' ".$_POST["useremail"]." ', ' ".$_POST["message"]." ')";
 mysqli_query($con,$query)
 or die(mysqli_connect_error());
-echo "inserted";
+echo "<br>"."inserted";
+if(isset($_POST['submitb'])){
+  echo "<script>alert('شكرا لك ! سعيدين باقتراحاتك');</script>";
+}
 
 ?>
 </html>
