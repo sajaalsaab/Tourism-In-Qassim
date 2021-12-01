@@ -5,6 +5,7 @@
 $con=mysqli_connect("localhost","root","","ExploreQassim")
 or die(mysqli_connect_error());
 echo "connect done"."<br>";
+
 mysqli_query($con,"CREATE TABLE IF NOT EXISTS suggestion(
   id INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY(id),
@@ -22,5 +23,5 @@ if(isset($_POST['submitb'])){
 }
 
 ?>
-</html>
+</body>
 </html>
